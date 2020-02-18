@@ -21,11 +21,6 @@ img {
   box-sizing: border-box;
 }
 
-img:hover {
-  transition-duration: .5s;
-  transform: rotate(7deg) scale(1.15);
-}
-
 .container, h1 {
   width: 80%;
   max-width: 600px;
