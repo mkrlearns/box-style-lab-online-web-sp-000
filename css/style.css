@@ -23,7 +23,7 @@ img {
 
 img:hover {
   transition-duration: .5s;
-  transform: scale(1.15);
+  transform: rotate(7deg), scale(1.15);
 }
 
 .container, h1 {
@@ -34,6 +34,10 @@ img:hover {
   margin: 10px auto;
 }
 
+h4.amiable {
+  background: linear-gradient(to right, #44cc66, #22aa44)
+}
+
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
@@ -41,10 +45,18 @@ img:hover {
 
 }
 
+h4.indifferent {
+  background: linear-gradient(to right, #dddd22, #aaaa02)
+}
+
 .indifferent {
   border: 1px solid #aaaa02;
   box-shadow:  -1px 1px #aaaa02, -2px 2px #aaaa02, -3px 3px #aaaa02, -4px 4px #aaaa02, -5px 5px #aaaa02;
   background-color: #dddd22;
+}
+
+h4.dubious {
+  background: linear-gradient(to right, #dd4444, #aa2322)
 }
 
 .dubious {
