@@ -9,19 +9,29 @@ body, html {
   background-size: cover;
 }
 
+h4 {
+  width: fit-content;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px 0 0 0;
+}
+
+img {
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+img:hover {
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+
 .container, h1 {
   width: 80%;
   max-width: 600px;
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
-}
-
-h4 {
-  width: fit-content;
-  display: inline-block;
-  padding: 5px;
-  margin: 20px 0 0 0;
 }
 
 .amiable {
